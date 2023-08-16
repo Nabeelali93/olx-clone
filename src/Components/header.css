@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+.container-fluid{
+    background-color: whitesmoke;
+    height: 110px;
+    padding: 5px;
+
+}
+.mainlogo{
+    height: 35px;
+    margin-left: 30px;
+    margin-bottom: -20px;
+    padding: 10px;
+}
+.logoimg{
+    height: 20px;
+    padding: 10px;
+    margin-left: 30px;
+}
+.vectorimg{
+    height: 25px;
+ background-color: gainsboro;
+    border-radius: 50%;
+    margin-bottom: 7px;
+    position: relative;
+}
+.bold{
+    font-size: 12px;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 7px;
+}
+.bolder{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 7px; 
+    font-size: 12px;
+}
+.motors{
+    display: inline-block;
+    margin-left: 5%;
+
+}
+.property{
+    
+    display: inline-block;
+    margin-left: 10%;
+}
+
+/* First Search Bar */
+    .search-bar{
+      display: inline-block;
+      width: 300px;
+      height: 40px;
+      margin-left: 20px;
+      background-color: white;
+      border: 2px solid black;
+      border-radius: 4px;
+      /* padding: 4px; */
+    }
+
+    .search-bar input[type="text"] {
+      flex: 1;
+      border: none;
+      outline: 0px;
+    width: 250px;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    .search-bar button {
+      background: none;
+      border: none;
+      padding: 8px;
+      cursor: pointer;
+    }
+    
+/* Second Search Bar */
+
+
+.search-bar2{
+    display: inline-block;
+    width: 650px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    /* padding: 4px; */
+  }
+
+  .inpsearch {
+    border: none;
+    outline: 0px;
+    width: 550px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 62px;
+    font-size: large;
+    cursor: pointer;
+  }
+
+
+.loginbtn{
+  display: inline-block;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 25px;
+    border-bottom: 2px solid black;
+}
+
+
+.img{
+  display: inline-flex;
+  align-items: center;
+    height: 45px;
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+ .btndiv{   
+  display: inline-block;
+ position: relative; 
+}
+.thirdRow{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 1px  gray;
+height: 50px;
+
+}
+.selopt{
+  font-weight: bold;
+  margin-left: 35px;
+  font-size: 1rem;
+  border: none;
+}
+ul{
+  
+  margin-top: -16px;
+  margin-left: 190px;
+  display: flex;
+  align-items: center;
+list-style: none;
+gap: 25px;
+}
+.sliderimg{
+  height: 180px;
+  display: flex;
+  width: 80rem;
+  margin: auto;
+}
+.all-cat{
+  margin-left: 35px;
+  margin-top: 5px;
+
+}
+.cat-img{
+  height: 110px;
+  display:flex;
+  margin-left: 30px;
+  margin-top: 5px;
+  
+}
+
+.div-mob{
+display: inline-flex;
+align-items: center;
+width: 170px;
+}
+.div-mob b{
+  display: flex;
+justify-content: center;
+  margin-top: 100%;
+  margin-left: -85px;
+  font-size: large;
+}
+.categories-div{
+  display:inline-flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.border{
+  border: 2px solid gainsboro;
+  height: 320px;
+  width: 300px;
+}
+.imgCard img{
+  width:300px;
+  height: 180px;
+}
+
+.mainCards{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.outline-Border:hover{
+  box-shadow: 0px 0px 5px gainsboro;
+}
